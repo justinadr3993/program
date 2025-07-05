@@ -1,14 +1,9 @@
-
-
 #include <stdlib.h>
 #include <stdio.h>
-
-
+#include <string.h>
+#include "lib.h"
 int main(int argc, char* argv[])
 {
-	int a = 4;
-	int b = 5;
-	sizeof(a);
-	printf("%i", a + b);
-	
+	const char* hello = "Hello World";
+	print(hello);	
 }
