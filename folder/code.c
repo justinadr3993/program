@@ -1,5 +1,0 @@
-struct codeee
-{
-    float a;
-
-};
